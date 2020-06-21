@@ -21,7 +21,7 @@ namespace Flare_Sharp.ClientBase.Modules.Modules
             Minecraft.clientInstance.localPlayer.velY = 0;
             if (delayCount >= 45)
             {
-                Minecraft.clientInstance.localPlayer.teleport(Minecraft.clientInstance.localPlayer.X1, Minecraft.clientInstance.localPlayer.Y1 - 0.001f, Minecraft.clientInstance.localPlayer.Z1);
+                Minecraft.clientInstance.localPlayer.teleport(Minecraft.clientInstance.localPlayer.X1, Minecraft.clientInstance.localPlayer.Y1 + 0.001f, Minecraft.clientInstance.localPlayer.Z1);
                 delayCount = 0;
             }
             delayCount++;
