@@ -90,6 +90,8 @@ namespace Flare_Sharp.ClientBase.Modules
             new RainbowUI();
             new CoordinatesDisplay();
             //new CubeCraftFly();
+            new CCMPFly();
+            new HiveFly();
             Console.WriteLine("Modules registered!");
             startModuleThread();
         }
