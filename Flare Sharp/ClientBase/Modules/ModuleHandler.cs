@@ -92,6 +92,7 @@ namespace Flare_Sharp.ClientBase.Modules
             //new CubeCraftFly();
             new CCMPFly();
             new HiveFly();
+            new LifeboatFly();
             Console.WriteLine("Modules registered!");
             startModuleThread();
         }
